@@ -1,21 +1,13 @@
 const FILES_TO_CACHE = [
     '/',
-    '/assets/css/style.css',
+    '/style.css',
     '/index.html',
-    '/favicon.ico',
-    '/dist/manifest.json',
-    '/dist/bundle.js',
-    '/dist/icon_72x72.png',
-    '/dist/icon_96x96.png',
-    '/dist/icon_128x128.png',
-    '/dist/icon_144x144.png',
-    '/dist/icon_152x152.png',
-    '/dist/icon_192x192.png',
-    '/dist/icon_384x384.png',
-    '/dist/icon_512x512.png',
-    '/assets/images/1.jpg',
-    '/assets/images/38.jpg'
-    // hand code these parts
+    '/db.js',
+    '/index.js',
+    '/manifest.json',
+    '/servise-worker.js',
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png'
   ];
   
   const STATIC_CACHE = "static-cache-v1";
